@@ -7,10 +7,15 @@ $weight-bold: bold;
 $no-border: none;
 $gradient: linear-gradient(180deg, #005BD5, #002E6B);
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@mixin display-pattern{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@mixin dash-pattern{
+    width: 3vw;
+    height: 0.2vh;
+    border-radius: 10px;
 }
 
 main{
@@ -29,7 +34,7 @@ main{
         height: 40vh;
         position: absolute;
         z-index: 1;
-        top: 30vh;
+        top: 29vh;
         left: 8vw;
         display: $common-display;
         flex-direction: column;
@@ -49,33 +54,84 @@ main{
         .figureDiv{
             width: 50%;
             height: 60vh;
-            .firstPic{
+            .photos{
                 width: 100%;
                 height: 60vh;
             }
         }
-        .containerText{
+        span{
             width: 50%;
             height: 60vh;
             color: $color-white;
             background-image: $gradient;
-            .boxText{
-                width: 80vw;
-                border: solid red;
-                div{
-                    display: $common-display;
-                    justify-content: flex-start;
-                    align-items: $items-center;
-                    .dash{
-                        width: 4vw;
-                        height: 0.2vh;
-                        border-radius: 10px;
-                    }
+            display: $common-display;
+            flex-direction: column;
+            justify-content: $space-evenly;
+            padding: 8vh 1vw 8vh 6vw;
+            div{
+                width: 18vw;
+                @include display-pattern;
+                align-items: $items-center;
+                margin-bottom: -2vh;
+                .dash{
+                    @include dash-pattern;
+                }
+                h4{
+                    font-weight: 400;
+                    font-size: 0.9em;
+                    letter-spacing: 2px;
                 }
             }
-            
-        }
+            article{
+                height: 40vh;
+                width: 35vw;
+                @include display-pattern;
+                flex-direction: column;
+                h2{
+                    width: 25vw;
+                    font-size: 2.5em;
+                }
+                h3{
+                    width: 35vw;
+                    font-size: 1.2em;
+                    font-weight: 300;
+                }
+                .blueBtn{
+                    background-color: #003A86;
+                    border: solid 1px $color-white;
+                    margin-top: 2vh;
+                }
+            }   
+        } 
     }
+
+    .containerText{
+        background-image: linear-gradient(180deg, #ffff, #ffff) !important;
+        .dashBlue{
+            @include dash-pattern;
+            border: solid 0.2px $color-blue;
+        }
+        .textViagens{
+            color: $color-blue;
+        }
+        .titleBox{
+            color: $color-blue;
+        }
+        .subtitleBox{
+            color: #1B6DD9;
+            font-weight: 400;
+        }
+        .whiteBtn{
+            color: #1B6DD9;
+            border: solid 1px #1B6DD9;
+            background-color: $color-white;
+        }  
+    }
+
+    .thirdTitleMain{
+        width: 35vw !important;
+    }
+   
 }
 
 input{
