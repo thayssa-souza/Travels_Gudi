@@ -1,5 +1,6 @@
 import React from "react";
 import Places from '../places/places';
+import PhotoWall from "../photoWall/photoWall";
 import mainStyle from '../main/main.css';
 import MajorPic from '../imgs/majorImage.png';
 import firstPhoto from '../imgs/firstMainPhoto.png';
@@ -24,15 +25,15 @@ export default function Main(){
                         <img src={firstPhoto} class="photos" alt="" />
                     </figure>
                     <span>
-                            <div>
-                                <img src={dash} class="dash" alt="Traço branco" />
-                                <h4> VIAGENS NACIONAIS</h4>
-                            </div>
-                            <article> 
-                                <h2>O clima perfeito, no lugar perfeito</h2>
-                                <h3>Planeje sua viagem com a sua paquera, compartilhar momentos preciosos juntos não tem preço.</h3>
-                                <button class="blueBtn">AGENDAR</button>
-                            </article>
+                        <div>
+                            <img src={dash} class="dash" alt="Traço branco" />
+                            <h4> VIAGENS NACIONAIS</h4>
+                        </div>
+                        <article> 
+                            <h2>O clima perfeito, no lugar perfeito</h2>
+                            <h3>Planeje sua viagem com a sua paquera, compartilhar momentos preciosos juntos não tem preço.</h3>
+                            <button class="blueBtn">AGENDAR</button>
+                        </article>
                     </span>
                 </span>
                 <span class="containerPics">
@@ -69,6 +70,7 @@ export default function Main(){
                 </span>
             </section>
             <Places />
+            <PhotoWall />
         </main>
     )
 }

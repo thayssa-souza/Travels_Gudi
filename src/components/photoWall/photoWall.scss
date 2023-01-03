@@ -1,0 +1,36 @@
+$color-gray: #8B8B8B;
+
+@mixin display-pattern{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.containerPhotoWall{
+    width: 100%;
+    padding-top: 12vh;
+    .firstContainerWall{
+        @include display-pattern;
+        flex-direction: column;
+        color: $color-gray;
+        .subtitleWall{
+            font-size: 1em;
+        }
+        .titleWall{
+            width: 20vw;
+            text-align: center;
+            font-size: 2.2em;
+        }
+    }
+    .secondContainerWall{
+        @include display-pattern;
+        flex-direction: column;
+        padding-top: 4vh;
+        .row{
+            @include display-pattern;
+            width: 50vw;
+            margin: auto;
+            padding-top: 4vh;
+        }
+    }
+}
