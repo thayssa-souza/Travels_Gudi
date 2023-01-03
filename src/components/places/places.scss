@@ -25,39 +25,39 @@
             }
         }
         .btnFirstPlace{
-            @include btn-pattern;
+            @include btn-pattern();
             left: 5vw;
             background-image: linear-gradient(120deg, #D6B8A2, #62544A);
         }
         .btnFirstPlace:hover{
-            @include btn-hover;
+            @include btn-hover();
         }
 
         .btnSecondPlace{
-            @include btn-pattern;
+            @include btn-pattern();
             left: 30vw;
             background-image: linear-gradient(120deg, #9DA0A0, #C7C2C2);
         }
         .btnSecondPlace:hover{
-            @include btn-hover;
+            @include btn-hover();
         }
 
         .btnThirdPlace{
-            @include btn-pattern;
+            @include btn-pattern();
             left: 55vw;
             background-image: linear-gradient(120deg, #1FB68F,#033E33);
         }
         .btnThirdPlace:hover{
-            @include btn-hover;
+            @include btn-hover();
         }
 
         .btnFourthPlace{
-            @include btn-pattern;
+            @include btn-pattern();
             left: 80vw;
             background-image: linear-gradient(120deg, #37331F, #676662);
         }
         .btnFourthPlace:hover{
-            @include btn-hover;
+            @include btn-hover();
         }
     }  
 }

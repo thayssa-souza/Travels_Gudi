@@ -48,4 +48,7 @@ button:hover {
   cursor: pointer;
   font-size: 0.9em;
   letter-spacing: 1.5px;
+  background-color: white;
+  border: solid 1px #005BD5;
+  color: #005BD5;
 }/*# sourceMappingURL=header.css.map */

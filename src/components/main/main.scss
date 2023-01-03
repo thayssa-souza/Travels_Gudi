@@ -69,11 +69,11 @@ main{
             padding: 8vh 1vw 8vh 6vw;
             div{
                 width: 18vw;
-                @include display-pattern;
+                @include display-pattern();
                 align-items: $items-center;
                 margin-bottom: -2vh;
                 .dash{
-                    @include dash-pattern;
+                    @include dash-pattern();
                 }
                 h4{
                     font-weight: 400;
@@ -84,7 +84,7 @@ main{
             article{
                 height: 40vh;
                 width: 35vw;
-                @include display-pattern;
+                @include display-pattern();
                 flex-direction: column;
                 h2{
                     width: 25vw;
@@ -100,12 +100,16 @@ main{
                     border: solid 1px $color-white;
                     margin-top: 2vh;
                 }
+                .blueBtn:hover{
+                    background-color: $color-white;
+                    color: $color-blue;
+                }
             }   
         }
         .containerText{
             background-image: linear-gradient(180deg, #ffff, #ffff) !important;
             .dashBlue{
-                @include dash-pattern;
+                @include dash-pattern();
                 border: solid 0.2px $color-blue;
             }
             .textViagens{
@@ -122,6 +126,10 @@ main{
                 color: #1B6DD9;
                 border: solid 1px #1B6DD9;
                 background-color: $color-white;
+            }
+            .whiteBtn:hover{
+                background-color: $color-blue;
+                color: $color-white;
             }  
         }
     

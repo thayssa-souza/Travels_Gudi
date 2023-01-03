@@ -1,6 +1,7 @@
 import React from "react";
 import Places from '../places/places';
 import PhotoWall from "../photoWall/photoWall";
+import Forms from '../forms/forms';
 import mainStyle from '../main/main.css';
 import MajorPic from '../imgs/majorImage.png';
 import firstPhoto from '../imgs/firstMainPhoto.png';
@@ -17,7 +18,7 @@ export default function Main(){
                 </figure>
                 <span class="containerTitle">
                     <h1>Para qual estado você deseja ir?</h1>
-                    <input id="searchPlace" name="search" placeholder="Pesquisar" />
+                    <input id="searchPlace" name="search" type="text" placeholder="Pesquisar" />
                     <button>BUSCAR</button>
                 </span>
                 <span class="containerPics">
@@ -71,6 +72,7 @@ export default function Main(){
             </section>
             <Places />
             <PhotoWall />
+            <Forms />
         </main>
     )
 }

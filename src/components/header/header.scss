@@ -17,14 +17,14 @@ header{
     section{
         width: 100%;
         height: 10vh;
-        @include display-pattern;
+        @include display-pattern();
         figure{
             width: 40vw;
         }
         ul{
             width: 30vw;
             color: $color-blue;
-            @include display-pattern;
+            @include display-pattern();
             li{
                 width: 10vw;
                 list-style: $style-list;
@@ -56,4 +56,7 @@ button:hover{
     cursor: $pointer;
     font-size: 0.9em;
     letter-spacing: 1.5px;
+    background-color: $color-white;
+    border: solid 1px $color-blue;
+    color: $color-blue;
 }

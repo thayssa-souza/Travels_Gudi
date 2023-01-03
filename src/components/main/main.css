@@ -84,6 +84,10 @@ main .containerPics span article .blueBtn {
   border: solid 1px white;
   margin-top: 2vh;
 }
+main .containerPics span article .blueBtn:hover {
+  background-color: white;
+  color: #005BD5;
+}
 main .containerPics .containerText {
   background-image: linear-gradient(180deg, white, white) !important;
 }
@@ -107,6 +111,10 @@ main .containerPics .containerText .whiteBtn {
   color: #1B6DD9;
   border: solid 1px #1B6DD9;
   background-color: white;
+}
+main .containerPics .containerText .whiteBtn:hover {
+  background-color: #005BD5;
+  color: white;
 }
 main .containerPics .thirdTitleMain {
   width: 35vw !important;

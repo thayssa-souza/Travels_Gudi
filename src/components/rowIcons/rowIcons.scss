@@ -9,7 +9,7 @@ $color-white: #FFFFFF;
 }
 
 @mixin icons-pattern{
-    @include display-pattern;
+    @include display-pattern();
     flex-direction: column;
     width: 10vw;
     height: 22vh;
@@ -19,14 +19,14 @@ $color-white: #FFFFFF;
 }
 
 .containerRowIcons{
-    @include display-pattern;
+    @include display-pattern();
     width: 50vw;
     margin: auto;
     padding-top: 10vh;
     .boxIconsGray{
         background-color: $color-gray;
         color: $color-blue;
-        @include icons-pattern;
+        @include icons-pattern();
         .subtitleIcon{
             width: 6vw;
         }
@@ -34,7 +34,7 @@ $color-white: #FFFFFF;
     .boxIconsBlue{
         background-color: $color-blue;
         color: $color-white;
-        @include icons-pattern;
+        @include icons-pattern();
     }
     
 }
