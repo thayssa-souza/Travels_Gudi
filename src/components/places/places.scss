@@ -1,0 +1,63 @@
+@mixin btn-pattern{
+    width: 13vw;
+    position: absolute;
+    top: 17vh;
+    border: solid 1px #ffff;
+    font-weight: 200;
+}
+
+@mixin btn-hover{
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.containerPhotos{
+    width: 100%;
+    display: flex;
+    position: relative;
+    .spanPhoto{
+        width: 25%;
+        .figurePlacePhoto{
+            width: 100%;
+            height: 41vh;
+            .placesPhoto{
+                width: 100%;
+            }
+        }
+        .btnFirstPlace{
+            @include btn-pattern;
+            left: 5vw;
+            background-image: linear-gradient(120deg, #D6B8A2, #62544A);
+        }
+        .btnFirstPlace:hover{
+            @include btn-hover;
+        }
+
+        .btnSecondPlace{
+            @include btn-pattern;
+            left: 30vw;
+            background-image: linear-gradient(120deg, #9DA0A0, #C7C2C2);
+        }
+        .btnSecondPlace:hover{
+            @include btn-hover;
+        }
+
+        .btnThirdPlace{
+            @include btn-pattern;
+            left: 55vw;
+            background-image: linear-gradient(120deg, #1FB68F,#033E33);
+        }
+        .btnThirdPlace:hover{
+            @include btn-hover;
+        }
+
+        .btnFourthPlace{
+            @include btn-pattern;
+            left: 80vw;
+            background-image: linear-gradient(120deg, #37331F, #676662);
+        }
+        .btnFourthPlace:hover{
+            @include btn-hover;
+        }
+    }  
+}

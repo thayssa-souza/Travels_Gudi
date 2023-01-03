@@ -39,7 +39,6 @@ header{
             }
         }
     }
-    
 }
 
 button{
@@ -56,4 +55,5 @@ button{
 button:hover{
     cursor: $pointer;
     font-size: 0.9em;
+    letter-spacing: 1.5px;
 }

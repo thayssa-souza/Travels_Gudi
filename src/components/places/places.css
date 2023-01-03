@@ -1,0 +1,67 @@
+.containerPhotos {
+  width: 100%;
+  display: flex;
+  position: relative;
+}
+.containerPhotos .spanPhoto {
+  width: 25%;
+}
+.containerPhotos .spanPhoto .figurePlacePhoto {
+  width: 100%;
+  height: 41vh;
+}
+.containerPhotos .spanPhoto .figurePlacePhoto .placesPhoto {
+  width: 100%;
+}
+.containerPhotos .spanPhoto .btnFirstPlace {
+  width: 13vw;
+  position: absolute;
+  top: 17vh;
+  border: solid 1px white;
+  font-weight: 200;
+  left: 5vw;
+  background-image: linear-gradient(120deg, #D6B8A2, #62544A);
+}
+.containerPhotos .spanPhoto .btnFirstPlace:hover {
+  cursor: pointer;
+  font-weight: 700;
+}
+.containerPhotos .spanPhoto .btnSecondPlace {
+  width: 13vw;
+  position: absolute;
+  top: 17vh;
+  border: solid 1px white;
+  font-weight: 200;
+  left: 30vw;
+  background-image: linear-gradient(120deg, #9DA0A0, #C7C2C2);
+}
+.containerPhotos .spanPhoto .btnSecondPlace:hover {
+  cursor: pointer;
+  font-weight: 700;
+}
+.containerPhotos .spanPhoto .btnThirdPlace {
+  width: 13vw;
+  position: absolute;
+  top: 17vh;
+  border: solid 1px white;
+  font-weight: 200;
+  left: 55vw;
+  background-image: linear-gradient(120deg, #1FB68F, #033E33);
+}
+.containerPhotos .spanPhoto .btnThirdPlace:hover {
+  cursor: pointer;
+  font-weight: 700;
+}
+.containerPhotos .spanPhoto .btnFourthPlace {
+  width: 13vw;
+  position: absolute;
+  top: 17vh;
+  border: solid 1px white;
+  font-weight: 200;
+  left: 80vw;
+  background-image: linear-gradient(120deg, #37331F, #676662);
+}
+.containerPhotos .spanPhoto .btnFourthPlace:hover {
+  cursor: pointer;
+  font-weight: 700;
+}/*# sourceMappingURL=places.css.map */

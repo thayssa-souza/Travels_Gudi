@@ -1,4 +1,5 @@
 import React from "react";
+import Places from '../places/places';
 import mainStyle from '../main/main.css';
 import MajorPic from '../imgs/majorImage.png';
 import firstPhoto from '../imgs/firstMainPhoto.png';
@@ -67,6 +68,7 @@ export default function Main(){
                     </span>
                 </span>
             </section>
+            <Places />
         </main>
     )
 }
