@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap");
 .containerForms {
   background-color: #005BD5;
   width: 100%;
@@ -26,8 +27,41 @@
   width: 100%;
   height: 40vh;
 }
+.containerForms .boxFormsAndTitle .forms input::-moz-placeholder {
+  font-family: "Manrope", sans-serif;
+  font-size: 1em;
+  font-weight: 500;
+}
+.containerForms .boxFormsAndTitle .forms input:-ms-input-placeholder {
+  font-family: "Manrope", sans-serif;
+  font-size: 1em;
+  font-weight: 500;
+}
+.containerForms .boxFormsAndTitle .forms input::placeholder {
+  font-family: "Manrope", sans-serif;
+  font-size: 1em;
+  font-weight: 500;
+}
 .containerForms .boxFormsAndTitle .forms textarea {
   border-radius: 10px;
+}
+.containerForms .boxFormsAndTitle .forms textarea::-moz-placeholder {
+  font-family: "Manrope", sans-serif;
+  font-size: 1em;
+  font-weight: 500;
+  padding-left: 0.7vw;
+}
+.containerForms .boxFormsAndTitle .forms textarea:-ms-input-placeholder {
+  font-family: "Manrope", sans-serif;
+  font-size: 1em;
+  font-weight: 500;
+  padding-left: 0.7vw;
+}
+.containerForms .boxFormsAndTitle .forms textarea::placeholder {
+  font-family: "Manrope", sans-serif;
+  font-size: 1em;
+  font-weight: 500;
+  padding-left: 0.7vw;
 }
 .containerForms .boxFormsAndTitle .forms .btnForms {
   margin-top: 2vh;
