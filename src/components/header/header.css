@@ -51,4 +51,42 @@ button:hover {
   background-color: white;
   border: solid 1px #005BD5;
   color: #005BD5;
+}
+
+@media (max-width: 800px) and (min-width: 360px) {
+  header section {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  header section figure {
+    width: 40vw;
+    display: none;
+  }
+  header section ul {
+    width: 30vw;
+    color: #005BD5;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  header section ul li {
+    width: 10vw;
+    list-style: none;
+    font-weight: 600;
+    text-align: center;
+    font-size: 1.1em;
+  }
+  header section ul li:hover {
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.3em;
+  }
+  button {
+    width: 29vw;
+    height: 5vh;
+    font-size: 0.9em;
+  }
 }/*# sourceMappingURL=header.css.map */

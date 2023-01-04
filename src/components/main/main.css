@@ -15,8 +15,8 @@ main .containerTitle {
   top: 31vh;
   left: 8vw;
   display: flex;
-  flex-direction: column;
   justify-content: space-evenly;
+  flex-direction: column;
   align-items: flex-start;
 }
 main .containerTitle h1 {
@@ -117,7 +117,7 @@ main .containerPics .containerText .whiteBtn:hover {
   color: white;
 }
 main .containerPics .thirdTitleMain {
-  width: 35vw !important;
+  width: 35vw;
 }
 
 input {
@@ -138,4 +138,83 @@ input:-ms-input-placeholder {
 
 input::placeholder {
   padding-left: 1vw;
+}
+
+@media (max-width: 800px) and (min-width: 360px) {
+  main .containerMajorPhoto {
+    height: 50vh;
+  }
+  main .containerMajorPhoto .majorPhoto {
+    height: 50vh;
+  }
+  main .containerTitle {
+    width: 98%;
+    top: 10vh;
+    left: 1vw;
+    text-align: center;
+    align-items: center;
+  }
+  main .containerTitle h1 {
+    font-size: 2.2em;
+  }
+  main .containerPics {
+    width: 100%;
+    flex-direction: column-reverse;
+    margin-top: 5vh;
+  }
+  main .containerPics .figureDiv {
+    width: 100%;
+    height: 55vh;
+  }
+  main .containerPics .figureDiv .photos {
+    width: 100%;
+    height: 55vh;
+  }
+  main .containerPics span {
+    width: 100%;
+    height: 55vh;
+  }
+  main .containerPics span div {
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: -2vh;
+  }
+  main .containerPics span div h4 {
+    font-size: 0.9em;
+  }
+  main .containerPics span article {
+    height: 45vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  main .containerPics span article h2 {
+    width: 100%;
+  }
+  main .containerPics span article h3 {
+    width: 100%;
+    font-size: 1.4em;
+  }
+  main .containerPics .containerText .whiteBtn {
+    margin-top: 1vh;
+  }
+  main .containerPics .thirdTitleMain {
+    margin-top: 2vh;
+    width: 100%;
+    text-align: center;
+  }
+  input {
+    height: 6vh;
+  }
+  input::-moz-placeholder {
+    font-size: 1.4em;
+  }
+  input:-ms-input-placeholder {
+    font-size: 1.4em;
+  }
+  input::placeholder {
+    font-size: 1.4em;
+  }
 }/*# sourceMappingURL=main.css.map */

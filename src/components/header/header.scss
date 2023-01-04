@@ -60,3 +60,40 @@ button:hover{
     border: solid 1px $color-blue;
     color: $color-blue;
 }
+
+@media(max-width: 800px) and (min-width: 360px){
+    header{
+        section{
+            width: 100%;
+            height: 10vh;
+            @include display-pattern();
+            figure{
+                width: 40vw;
+                display: none;
+            }
+            ul{
+                width: 30vw;
+                color: $color-blue;
+                @include display-pattern();
+                li{
+                    width: 10vw;
+                    list-style: $style-list;
+                    font-weight: 600;
+                    text-align: $items-center;
+                    font-size: 1.1em;
+                }
+                li:hover{
+                    cursor: $pointer;
+                    font-weight: $weight-bold;
+                    font-size: 1.3em;
+                }
+            }
+        }
+    }
+    
+    button{
+        width: 29vw;
+        height: 5vh;
+        font-size: 0.9em;
+    }
+}
