@@ -35,7 +35,7 @@
 
 @media (max-width: 800px) and (min-width: 360px) {
   .containerPhotoWall {
-    padding-top: 1vh;
+    padding-top: 10vh;
   }
   .containerPhotoWall .firstContainerWall .subtitleWall {
     font-size: 1.2em;
