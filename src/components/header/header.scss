@@ -1,9 +1,5 @@
 $color-blue: #005BD5;
 $color-white: #ffff;
-$style-list: none;
-$items-center: center;
-$weight-bold: bold;
-$pointer: pointer;
 
 @mixin display-pattern{
     display: flex;
@@ -30,14 +26,14 @@ header{
             @include display-pattern();
             li{
                 width: 10vw;
-                list-style: $style-list;
+                list-style: none;
                 font-weight: 600;
-                text-align: $items-center;
+                text-align: center;
                 font-size: 1.1em;
             }
             li:hover{
-                cursor: $pointer;
-                font-weight: $weight-bold;
+                cursor: pointer;
+                font-weight: bold;
                 font-size: 1.3em;
             }
         }
@@ -67,37 +63,17 @@ button:hover{
 @media(max-width: 800px) and (min-width: 360px){
     header{
         section{
-            width: 100%;
-            height: 10vh;
-            @include display-pattern();
             figure{
-                width: 40vw;
                 display: none;
             }
             .menu{
                 display: block;
             }
             ul{
-                width: 30vw;
-                color: $color-blue;
-                @include display-pattern();
                 display: none;
-                li{
-                    width: 10vw;
-                    list-style: $style-list;
-                    font-weight: 600;
-                    text-align: $items-center;
-                    font-size: 1.1em;
-                }
-                li:hover{
-                    cursor: $pointer;
-                    font-weight: $weight-bold;
-                    font-size: 1.3em;
-                }
             }
         }
     }
-    
     button{
         width: 29vw;
         height: 5vh;

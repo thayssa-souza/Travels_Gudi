@@ -1,13 +1,13 @@
-main .containerMajorPhoto {
+.main .containerMajorPhoto {
   width: 100%;
   height: 85vh;
   position: relative;
 }
-main .containerMajorPhoto .majorPhoto {
+.main .containerMajorPhoto .majorPhoto {
   width: 100%;
   height: 85vh;
 }
-main .containerTitle {
+.main .containerTitle {
   width: 32%;
   height: 40vh;
   position: absolute;
@@ -19,24 +19,24 @@ main .containerTitle {
   flex-direction: column;
   align-items: flex-start;
 }
-main .containerTitle h1 {
+.main .containerTitle h1 {
   width: 90%;
   font-size: 2.5em;
   color: #005BD5;
 }
-main .containerPics {
+.main .containerPics {
   width: 100%;
   display: flex;
 }
-main .containerPics .figureDiv {
+.main .containerPics .figureDiv {
   width: 50%;
   height: 60vh;
 }
-main .containerPics .figureDiv .photos {
+.main .containerPics .figureDiv .photos {
   width: 100%;
   height: 60vh;
 }
-main .containerPics span {
+.main .containerPics span {
   width: 50%;
   height: 60vh;
   color: white;
@@ -46,77 +46,77 @@ main .containerPics span {
   justify-content: space-evenly;
   padding: 8vh 1vw 8vh 6vw;
 }
-main .containerPics span div {
+.main .containerPics span div {
   width: 18vw;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   margin-bottom: -2vh;
 }
-main .containerPics span div .dash {
+.main .containerPics span div .dash {
   width: 3vw;
   height: 0.2vh;
   border-radius: 10px;
 }
-main .containerPics span div h4 {
+.main .containerPics span div h4 {
   font-weight: 400;
   font-size: 0.9em;
   letter-spacing: 2px;
 }
-main .containerPics span article {
+.main .containerPics span article {
   height: 40vh;
   width: 35vw;
   display: flex;
   justify-content: space-evenly;
   flex-direction: column;
 }
-main .containerPics span article h2 {
+.main .containerPics span article h2 {
   width: 25vw;
   font-size: 2.5em;
 }
-main .containerPics span article h3 {
+.main .containerPics span article h3 {
   width: 35vw;
   font-size: 1.2em;
   font-weight: 300;
 }
-main .containerPics span article .blueBtn {
+.main .containerPics span article .blueBtn {
   background-color: #003A86;
   border: solid 1px white;
   margin-top: 2vh;
 }
-main .containerPics span article .blueBtn:hover {
+.main .containerPics span article .blueBtn:hover {
   background-color: white;
   color: #005BD5;
 }
-main .containerPics .containerText {
+.main .containerPics .containerText {
   background-image: linear-gradient(180deg, white, white) !important;
 }
-main .containerPics .containerText .dashBlue {
+.main .containerPics .containerText .dashBlue {
   width: 3vw;
   height: 0.2vh;
   border-radius: 10px;
   border: solid 0.2px #005BD5;
 }
-main .containerPics .containerText .textViagens {
+.main .containerPics .containerText .textViagens {
   color: #005BD5;
 }
-main .containerPics .containerText .titleBox {
+.main .containerPics .containerText .titleBox {
   color: #005BD5;
 }
-main .containerPics .containerText .subtitleBox {
+.main .containerPics .containerText .subtitleBox {
   color: #1B6DD9;
   font-weight: 400;
 }
-main .containerPics .containerText .whiteBtn {
+.main .containerPics .containerText .whiteBtn {
   color: #1B6DD9;
   border: solid 1px #1B6DD9;
   background-color: white;
 }
-main .containerPics .containerText .whiteBtn:hover {
+.main .containerPics .containerText .whiteBtn:hover {
   background-color: #005BD5;
   color: white;
 }
-main .containerPics .thirdTitleMain {
+.main .containerPics .thirdTitleMain {
   width: 35vw;
 }
 
@@ -141,66 +141,66 @@ input::placeholder {
 }
 
 @media (max-width: 800px) and (min-width: 360px) {
-  main .containerMajorPhoto {
+  .main .containerMajorPhoto {
     height: 50vh;
   }
-  main .containerMajorPhoto .majorPhoto {
+  .main .containerMajorPhoto .majorPhoto {
     height: 50vh;
   }
-  main .containerTitle {
+  .main .containerTitle {
     width: 98%;
     top: 10vh;
     left: 1vw;
     text-align: center;
     align-items: center;
   }
-  main .containerTitle h1 {
+  .main .containerTitle h1 {
     font-size: 2.2em;
   }
-  main .containerPics {
+  .main .containerPics {
     width: 100%;
     flex-direction: column-reverse;
     margin-top: 1vh;
   }
-  main .containerPics .figureDiv {
+  .main .containerPics .figureDiv {
     width: 100%;
     height: 55vh;
   }
-  main .containerPics .figureDiv .photos {
+  .main .containerPics .figureDiv .photos {
     width: 100%;
     height: 55vh;
   }
-  main .containerPics span {
+  .main .containerPics span {
     width: 100%;
     height: 55vh;
   }
-  main .containerPics span div {
+  .main .containerPics span div {
     width: 60%;
     display: flex;
     justify-content: space-evenly;
     margin-bottom: -2vh;
   }
-  main .containerPics span div h4 {
+  .main .containerPics span div h4 {
     font-size: 0.9em;
   }
-  main .containerPics span article {
+  .main .containerPics span article {
     height: 45vh;
     width: 100%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
   }
-  main .containerPics span article h2 {
+  .main .containerPics span article h2 {
     width: 100%;
   }
-  main .containerPics span article h3 {
+  .main .containerPics span article h3 {
     width: 100%;
     font-size: 1.4em;
   }
-  main .containerPics .containerText .whiteBtn {
+  .main .containerPics .containerText .whiteBtn {
     margin-top: 1vh;
   }
-  main .containerPics .thirdTitleMain {
+  .main .containerPics .thirdTitleMain {
     margin-top: 2vh;
     width: 100%;
     text-align: center;
@@ -217,4 +217,4 @@ input::placeholder {
   input::placeholder {
     font-size: 1.4em;
   }
-}/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=MainFirstTopic.css.map */
