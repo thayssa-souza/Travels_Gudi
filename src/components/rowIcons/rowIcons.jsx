@@ -1,5 +1,5 @@
 import React from "react";
-import rowIconStyle from './rowIcons.css';
+import './rowIcons.css';
 import firstIcon from '../imgs/firstIcon.png';
 import secondIcon from '../imgs/secondIcon.png';
 import thirdIcon from '../imgs/thirdIcon.png';

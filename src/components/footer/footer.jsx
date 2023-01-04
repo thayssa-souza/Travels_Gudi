@@ -1,5 +1,5 @@
 import React from "react";
-import footerStyle from './footer.css';
+import './footer.css';
 import logo from '../imgs/logoHeader.jpg';
 
 export default function Footer(){

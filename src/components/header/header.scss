@@ -21,6 +21,9 @@ header{
         figure{
             width: 40vw;
         }
+        .menu{
+            display: none;
+        }
         ul{
             width: 30vw;
             color: $color-blue;
@@ -71,10 +74,14 @@ button:hover{
                 width: 40vw;
                 display: none;
             }
+            .menu{
+                display: block;
+            }
             ul{
                 width: 30vw;
                 color: $color-blue;
                 @include display-pattern();
+                display: none;
                 li{
                     width: 10vw;
                     list-style: $style-list;

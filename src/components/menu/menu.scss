@@ -1,0 +1,68 @@
+$color-blue: #005BD5;
+$color-white: #ffff;
+$color-light-blue: #7FAAE4;
+$gradient: linear-gradient(180deg, #005BD5, #002E6B);
+
+@mixin display-pattern{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.bm-burger-button {
+    position: absolute;
+    width: 14vw;
+    height: 6vh;
+    left: 10vw;
+    top: 2vh;
+    .bm-burger-bars{
+        background-color: $color-blue;
+        border-radius: 10px;
+    }
+    .bm-burger-bars:hover{
+        cursor: pointer;
+    }
+  }
+
+  .bm-cross-button {
+    width: 8vw !important;
+    height: 4vh !important;
+    .bm-cross {
+        background: $color-white;
+        width: 1.5vw !important;
+        height: 3.5vh !important;
+      }
+  }
+
+  .bm-menu-wrap {
+    height: 50vh !important;
+    width: 50vw;
+    .bm-menu {
+        background-image: $gradient;
+        font-size: 1.15em;
+        height: 50vh;
+        width: 80vw;
+        border-radius: 10px;
+      }
+      .bm-morph-shape {
+        fill: $color-light-blue;
+      }
+  }  
+  
+  .bm-item-list {
+    @include display-pattern();
+    .bm-item {
+        width: 60%;
+        height: 30vh;
+        color: $color-white;
+        font-size: 1.5em;
+        li{
+            width: 40vw;
+            height: 10vh;
+        }
+    }
+}
+    
+.bm-overlay {
+    height: 50vh !important;
+}

@@ -160,7 +160,7 @@ input::placeholder {
   main .containerPics {
     width: 100%;
     flex-direction: column-reverse;
-    margin-top: 5vh;
+    margin-top: 1vh;
   }
   main .containerPics .figureDiv {
     width: 100%;

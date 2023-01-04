@@ -12,6 +12,9 @@ header section {
 header section figure {
   width: 40vw;
 }
+header section .menu {
+  display: none;
+}
 header section ul {
   width: 30vw;
   color: #005BD5;
@@ -65,12 +68,16 @@ button:hover {
     width: 40vw;
     display: none;
   }
+  header section .menu {
+    display: block;
+  }
   header section ul {
     width: 30vw;
     color: #005BD5;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    display: none;
   }
   header section ul li {
     width: 10vw;

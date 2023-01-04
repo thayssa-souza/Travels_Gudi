@@ -2,7 +2,7 @@ import React from "react";
 import Places from '../places/places';
 import PhotoWall from "../photoWall/photoWall";
 import Forms from '../forms/forms';
-import mainStyle from '../main/main.css';
+import './main.css';
 import MajorPic from '../imgs/majorImage.png';
 import firstPhoto from '../imgs/firstMainPhoto.png';
 import secondPhoto from '../imgs/secondMainPhoto.png';

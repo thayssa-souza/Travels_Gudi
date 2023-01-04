@@ -1,6 +1,6 @@
 import React from "react";
 import RowIcons from "../rowIcons/rowIcons";
-import photoWallStyle from './photoWall.css';
+import './photoWall.css';
 import firstPhoto from '../imgs/firsRowFirstPhoto.png';
 import secondPhoto from '../imgs/fisrtRowSecondPhoto.png';
 import thirdPhoto from '../imgs/firstRowThirdPhoto.png';

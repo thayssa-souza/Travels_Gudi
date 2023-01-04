@@ -3,7 +3,7 @@ import rioPic from '../imgs/rioPhoto.png';
 import rioOstrasPic from '../imgs/ostrasPhoto.png';
 import caldasNovasPic from '../imgs/caldasPhoto.png';
 import amazoniaPic from '../imgs/amazoniaPhoto.png';
-import placesStyle from './places.css';
+import './places.css';
 
 export default function Places(){
     return(
