@@ -34,3 +34,33 @@ $color-gray: #8B8B8B;
         }
     }
 }
+
+@media(max-width: 800px) and (min-width: 360px){
+    .containerPhotoWall{
+        padding-top: 1vh;
+        .firstContainerWall{
+            .subtitleWall{
+                font-size: 1.2em;
+            }
+            .titleWall{
+                width: 100%;
+                text-align: center;
+                font-size: 2.5em;
+            }
+        }
+        .secondContainerWall{
+            @include display-pattern();
+            flex-direction: column;
+            padding-top: 2vh;
+            .row{
+                @include display-pattern();
+                width: 100%;
+                margin: auto;
+                padding-top: 4vh;
+                .photoWall{
+                    width: 33%;
+                }
+            }
+        }
+    }
+}
