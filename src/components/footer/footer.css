@@ -28,4 +28,35 @@ footer .columns h3:hover {
 footer .columns h4 {
   font-size: 0.7em;
   line-height: 1.5;
+}
+
+@media (max-width: 800px) and (min-width: 360px) {
+  footer {
+    height: 23vh;
+    padding-top: 3vh;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  footer .columns {
+    flex-direction: column;
+  }
+  footer .columns .logoFooter {
+    width: 100%;
+  }
+  footer .columns .logoFooter img {
+    height: 5vh;
+    padding-left: 2vw;
+  }
+  footer .columns h3 {
+    width: 30vw;
+    height: 5vh;
+    padding-left: 2vw;
+    text-align: center;
+  }
+  footer .columns h3:hover {
+    font-size: 1.2em;
+  }
+  footer .columns h4 {
+    display: none;
+  }
 }/*# sourceMappingURL=footer.css.map */

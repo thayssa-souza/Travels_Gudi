@@ -33,3 +33,34 @@ footer{
         }
     }
 }
+
+@media(max-width: 800px) and (min-width: 360px){
+    footer{
+        height: 23vh;
+        padding-top: 3vh;
+        flex-direction: column;
+        flex-wrap: wrap;
+        .columns{
+            flex-direction: column;
+            .logoFooter{
+                width: 100%;
+                img{
+                    height: 5vh;
+                    padding-left: 2vw;
+                }
+            }
+            h3{
+                width: 30vw;
+                height: 5vh;
+                padding-left: 2vw;
+                text-align: center;
+            }
+            h3:hover{
+                font-size: 1.2em;
+            }
+            h4{
+                display: none;
+            }
+        }
+    }
+}
