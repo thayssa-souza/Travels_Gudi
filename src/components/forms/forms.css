@@ -44,6 +44,8 @@
 }
 .containerForms .boxFormsAndTitle .forms textarea {
   border-radius: 10px;
+  width: 70%;
+  height: 8vh;
 }
 .containerForms .boxFormsAndTitle .forms textarea::-moz-placeholder {
   font-family: "Manrope", sans-serif;
@@ -98,9 +100,6 @@
   }
   .containerForms .boxFormsAndTitle .forms input::placeholder {
     font-size: 1.2em;
-  }
-  .containerForms .boxFormsAndTitle .forms textarea {
-    width: 70%;
   }
   .containerForms .boxFormsAndTitle .forms textarea::-moz-placeholder {
     font-size: 1.2em;
