@@ -36,5 +36,20 @@ $color-white: #FFFFFF;
         color: $color-white;
         @include icons-pattern();
     }
-    
+}
+
+@media(max-width: 800px) and (min-width: 360px){
+    .containerRowIcons{
+        @include display-pattern();
+        width: 100%;
+        .boxIconsGray{
+            width: 25%;
+            .subtitleIcon{
+                width: 22vw;
+            }
+        }
+        .boxIconsBlue{
+            width: 25%;
+        }
+    }
 }
