@@ -72,18 +72,21 @@
 
 @media (max-width: 800px) and (min-width: 360px) {
   .containerPhotos {
-    height: 40vh;
+    height: 60vh;
     flex-direction: row;
     flex-wrap: wrap;
     position: relative;
   }
   .containerPhotos .spanPhoto {
     width: 50%;
-    height: 20vh;
+    height: 30vh;
   }
   .containerPhotos .spanPhoto .figurePlacePhoto {
     width: 100%;
-    height: 20vh;
+    height: 30vh;
+  }
+  .containerPhotos .spanPhoto .figurePlacePhoto .placesPhoto {
+    height: 30vh;
   }
   .containerPhotos .spanPhoto .btnFirstPlace {
     width: 13vw;
@@ -91,22 +94,22 @@
     top: 17vh;
     border: solid 1px white;
     font-weight: 200;
-    top: 9vh;
+    top: 15vh;
     left: 5vw;
     width: 40vw;
   }
   .containerPhotos .spanPhoto .btnSecondPlace {
-    top: 9vh;
+    top: 15vh;
     left: 55vw;
     width: 40vw;
   }
   .containerPhotos .spanPhoto .btnThirdPlace {
-    top: 27vh;
+    top: 44vh;
     left: 5vw;
     width: 40vw;
   }
   .containerPhotos .spanPhoto .btnFourthPlace {
-    top: 27vh;
+    top: 44vh;
     left: 55vw;
     width: 40vw;
   }
